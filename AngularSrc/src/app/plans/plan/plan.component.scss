@@ -1,0 +1,71 @@
+.Plan {
+  max-width: 250px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase ;
+  border-radius: 6px;
+}
+
+.Plan__header {
+  font-size: 3rem;
+  color: #fff;
+  padding: 40px;
+}
+
+.Plan__body {
+  background: #fff;
+  padding: 15px 0;
+
+  .Plan__body-type h3 {
+    color: #64b5ff;
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+
+  .Plan__body-price {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: #fb5d6b;
+
+    .dollar-sign {
+      align-self: start;
+      font-weight: bold;
+      font-size: 1.4rem;
+    }
+    h3 {
+      margin: 0;
+      font-weight: bold;
+      font-size: 2.8rem;
+    }
+    .month {
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: lowercase;
+    }
+  }
+
+  .Plan__features {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    color: #64b5ff;
+    ul {
+      list-style: none;
+      font-size: .90rem;
+      text-align: left;
+      padding: 0 0 0 23px;
+    }
+  }
+
+  .Plan__form {
+    button {
+      text-transform:  uppercase;
+      font-weight: bold;
+      font-size: .86rem;
+      border: none;
+    }
+  }
+
+}

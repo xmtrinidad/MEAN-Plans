@@ -1,0 +1,17 @@
+.Plans {
+  margin: 50px 0;
+  display: grid;
+  grid-gap: 8px;
+}
+
+@media (min-width: 576px) {
+  .Plans {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 768px) {
+  .Plans {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

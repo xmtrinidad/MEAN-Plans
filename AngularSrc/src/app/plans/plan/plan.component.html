@@ -1,0 +1,31 @@
+<div class="Plan">
+  <div class="Plan__header">
+    <i [class]="plan.icon"></i>
+  </div>
+  <div class="Plan__body">
+
+    <div class="Plan__body-type">
+      <h3>{{plan.type}}</h3>
+    </div>
+
+    <div class="Plan__body-price">
+      <span class="dollar-sign">$</span>
+      <h3>{{plan.price}}</h3>
+      <span class="month">/mo</span>
+    </div>
+
+    <div class="Plan__features">
+      <ul>
+        <li><strong>{{plan.accounts}}</strong> accounts</li>
+        <li><strong>{{plan.space}} GB</strong> space</li>
+        <li><strong>{{plan.domains}}</strong> domain name</li>
+        <li><strong>{{plan.bandwidth}}</strong> bandwidth</li>
+      </ul>
+    </div>
+
+    <form class="Plan__form">
+      <button [ngStyle]="{'background-color': plan.btn.color}" class="btn btn-primary btn-lg" type="submit">{{plan.btn.text}}</button>
+    </form>
+
+  </div>
+</div>
