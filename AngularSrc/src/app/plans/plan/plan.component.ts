@@ -1,5 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {Plan} from "../../models/Plan";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-plan',
@@ -9,7 +10,7 @@ import {Plan} from "../../models/Plan";
 export class PlanComponent implements OnInit {
   @Input() plan: Plan;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
