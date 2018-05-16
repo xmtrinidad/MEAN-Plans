@@ -23,7 +23,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 // Route Middleware
-app.use('/users', userRoutes);
+app.use('/user', userRoutes);
 app.use('/', indexRoutes);
 
 const port = process.env.PORT || 5000;
