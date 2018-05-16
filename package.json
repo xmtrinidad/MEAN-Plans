@@ -1,0 +1,27 @@
+{
+  "name": "mean-plans",
+  "version": "1.0.0",
+  "description": "Taking a design from Uplabs and using it as UI base for a CRUD application using the MEAN Stack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xmtrinidad/MEAN-Plans.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xmtrinidad/MEAN-Plans/issues"
+  },
+  "homepage": "https://github.com/xmtrinidad/MEAN-Plans#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.1.1",
+    "mongoose-unique-validator": "^2.0.1",
+    "passport": "^0.4.0"
+  }
+}
