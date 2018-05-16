@@ -23,9 +23,9 @@
       </ul>
     </div>
 
-    <form class="Plan__form">
-      <button [ngStyle]="{'background-color': plan.btn.color}" class="btn btn-primary btn-lg" type="submit">{{plan.btn.text}}</button>
-    </form>
+    <div class="Plan__btn-div">
+      <a [routerLink]="['/register', plan.type]" [ngStyle]="{'background-color': plan.btn.color}" class="btn btn-primary btn-lg" type="button">{{plan.btn.text}}</a>
+    </div>
 
   </div>
 </div>

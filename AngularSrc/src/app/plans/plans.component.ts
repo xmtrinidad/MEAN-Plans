@@ -36,7 +36,7 @@ export class PlansComponent implements OnInit {
     },
     {
       icon: 'fas fa-fighter-jet',
-      type: 'PRO',
+      type: 'pro',
       price: 79,
       accounts: 75,
       space: 1000,
